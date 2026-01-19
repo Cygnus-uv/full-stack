@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 /* LIGHT MODE VARIABLES */
@@ -34,14 +35,15 @@ body {
 /* LAYOUT */
 .container {
     display: flex;
-    min-height: 1000vh;
+    min-height: 100vh;
 }
 
 /* SIDEBAR */
 .sidebar {
     width: 220px;
     background-color: var(--sidebar-color);
-    padding: 40px;
+    padding: 30px 20px;
+
 }
 
 .logo {
@@ -61,7 +63,7 @@ body {
 }
 
 .menu li:hover {
-    background-color: #ff9c9c;
+    background-color:rgba(255, 156, 156, 0.2);
 }
 
 /* MAIN CONTENT */
@@ -90,7 +92,8 @@ body {
 /* CARDS */
 .cards {
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -107,7 +110,7 @@ body {
 }
 .inputs {
     display: flex;
-    gap: 219px;
+    gap: 220px;
     margin-bottom: 20px;
 }
 
